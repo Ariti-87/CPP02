@@ -2,7 +2,7 @@ NAME		:= a.out
 
 #SOURCES_____________________________________________________________
 
-SRCS		:=	main.cpp Fixed.cpp
+SRCS		:=	main.cpp Point.cpp Fixed.cpp Bsp.cpp
 
 #OBJECT______________________________________________________________
 
