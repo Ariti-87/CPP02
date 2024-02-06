@@ -16,11 +16,6 @@ int main( void )
 	std::cout << "b is " << b.toInt() << " as integer" << std::endl;
 	std::cout << "c is " << c.toInt() << " as integer" << std::endl;
 	std::cout << "d is " << d.toInt() << " as integer" << std::endl;
-	std::cout << GREEN << "My test --------" << std::endl;
-	a.setRawBits(12);
-	std::cout << a.getRawBits() << std::endl;
-	std::cout << a.toFloat() << std::endl;
-	std::cout << "My test --------" << RESET << std::endl;
 
 	return 0;
 }

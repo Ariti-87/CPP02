@@ -38,11 +38,13 @@ int main( void )
 	if (x >= z)
 		std::cout << "x is greater than or equal to z" << std::endl;
 	Fixed div = y / z;
-	std::cout << "x / z = " << div << std::endl;
+	std::cout << "y / z = " << div << std::endl;
 	Fixed sub = y - z;
-	std::cout << "x - z = " << sub << std::endl;
+	std::cout << "y - z = " << sub << std::endl;
 	Fixed add = y + z;
-	std::cout << "x + z = " << add << std::endl;
+	std::cout << "y + z = " << add << std::endl;
+	Fixed mult = y * z;
+	std::cout << "y * z = " << mult << std::endl;
 	std::cout << "My test ------- " << RESET << std::endl;
 	return 0;
 }
