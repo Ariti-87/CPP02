@@ -2,7 +2,6 @@
 #include "Fixed.hpp"
 #include <cmath>
 
-// Aire = 1/2 * base * hauteur
 bool bsp(Point const a, Point const b, Point const c, Point const point)
 {
 	float areaABC = std::abs((a.getX().toFloat() * (b.getY().toFloat() - c.getY().toFloat())
